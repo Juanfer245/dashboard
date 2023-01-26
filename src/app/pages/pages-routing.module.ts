@@ -8,10 +8,10 @@ import { CatalogueComponent } from './catalogue/catalogue.component';
 import { StaticModule } from '../static/static.module';
 import { HomeComponent } from './home/home.component';
 import { CarritoComponent } from '../carrito/carrito.component';
+import { ChatComponent } from '../estadistica/estadistica/dashboard/dashboard.component';
 
 
 const routes: Routes = [
-
   {
     path: 'dashboard',
     component: PagesComponent,
@@ -37,11 +37,13 @@ const routes: Routes = [
         path: 'carrito',
         component: CarritoComponent,
       },
-
-
+      {
+        path: 'chart',
+        component: ChatComponent,
+      },
     ],
   },
-]
+];
 @NgModule({
   declarations: [],
   imports: [

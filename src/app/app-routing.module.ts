@@ -7,12 +7,9 @@ import { NotfoundRoutingModule } from './notfound/notfound-routing.module';
 
 
 const routes: Routes = [
-  
-  {path: '', redirectTo:'/dashboard', pathMatch:'full'},//ruta por defecto
- 
-
-
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' }, //ruta por defecto
 ];
+
 //routermodule.forRoot :especifica las rutas principales
 @NgModule({
   declarations: [],

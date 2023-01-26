@@ -12,7 +12,7 @@ import { StaticComponent } from './static/static.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { NotfoundModule } from './notfound/notfound.module';
 import { HttpClientModule } from '@angular/common/http';
-import { DashboardComponent } from './estadistica/estadistica/dashboard/dashboard.component';
+import { ChatComponent } from './estadistica/estadistica/dashboard/dashboard.component';
 
 
 
@@ -25,8 +25,8 @@ import { DashboardComponent } from './estadistica/estadistica/dashboard/dashboar
     AuthComponent,
     StaticComponent,
     NotfoundComponent,
-    DashboardComponent
-  
+    ChatComponent
+
 
 
 
